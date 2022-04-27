@@ -11,7 +11,7 @@ namespace GabriellaCukier {
         private MicrogameInternal.GameManager gm;
         void Start()
         {
-            float dirX = Random.Range(-5.0f, 5.0f);
+            float dirX = -1;
             direcao = new Vector3(dirX, 0).normalized;
             gm = MicrogameInternal.GameManager.GetInstance();
 
